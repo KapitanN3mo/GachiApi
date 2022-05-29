@@ -22,4 +22,4 @@ def get_random_gachi_image():
     return send_file(f'images/{file}')
 
 
-app.run('127.0.0.1', 3698, debug=True)
+app.run()
